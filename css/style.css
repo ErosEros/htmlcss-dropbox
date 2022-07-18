@@ -27,6 +27,12 @@ display: flex;
  flex-direction: column;
 }
 
+/* postition relative */
+.relative {
+    position: relative;
+}
+
+
 /* header */
 
 header {
@@ -34,6 +40,7 @@ header {
     font-size: 14px;
 }
 
+/* Header-top */
 .header-top {
     height: 10vh;
     background-color: white;
@@ -55,7 +62,7 @@ header {
 }
 
 .header-bottom {
-    height: 70vh;
+    height: 60vh;
 }
 
 .logo {
@@ -69,7 +76,81 @@ a {
 }
 
 .blue-button {
-    background-color: blue;
+    background-color: #0061ff;
     color: white;
-    padding: 5px 10px;
+    padding: 5px 12px;
+} 
+
+/* header-bottom */
+
+.header-bottom {
+    margin: 60px 270px;
 }
+
+h1 {
+    font-size: 64px;
+}
+
+p {
+    width: 250px;
+    margin-top: 30px;
+}
+
+.button-large {
+    width: 200px;
+    margin: 20px 0px;
+    
+}
+
+.text-head {
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.header-image {
+    width: 500px;
+}
+
+.img-header {
+    position: absolute;
+    width: 640px;
+    left: 265px;
+    top: 30px;
+}
+
+.arrow-down {
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+/* main */
+
+
+/* section-1 */
+.container-section-1 {
+    margin: 120px 320px;
+}
+
+h2 {
+    font-size: 33px;
+}
+
+.container-box-1 {
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.container-box-1 > div {
+    width: 250px;
+    height: 800px;
+    background-color: yellow;
+
+}
+
+.box-4 {
+    margin-top: 50px;
+    height: 200px;
+    background-color: yellow;
+}
+
+/* section-2 */
