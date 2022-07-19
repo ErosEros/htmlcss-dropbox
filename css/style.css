@@ -44,10 +44,19 @@ header {
 .header-top {
     height: 10vh;
     background-color: white;
-    padding: 5px; 
+    /* padding: 5px;  */
     justify-content: space-between;
     align-items: center;
+    
 
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 3;
 }
 
 .container-head-1 {
@@ -246,4 +255,8 @@ h2 {
     height: 200px;
     width: calc(100% / 2);
     
+}
+
+.square-2-background {
+    background-color: red;
 }
