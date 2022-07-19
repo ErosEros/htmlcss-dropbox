@@ -381,3 +381,30 @@ h2 {
 }
 
 /* footer */
+footer {
+    background-color: black;
+}
+
+.container-footer {
+    height: 400px;
+    padding: 80px 0px;
+    justify-content: space-between;
+    margin: 0px 270px;
+    
+    
+}
+
+.container-footer > div {
+   color: white;
+}
+
+.container-bottom > a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 0px;
+    font-size: 12px;
+}
+
+.container-bottom > h3 {
+    padding-bottom: 20px;
+}
