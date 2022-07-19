@@ -27,6 +27,11 @@ display: flex;
  flex-direction: column;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+}
+
 /* postition relative */
 .relative {
     position: relative;
@@ -44,7 +49,7 @@ header {
 .header-top {
     height: 10vh;
     background-color: white;
-    /* padding: 5px;  */
+    padding: 5px; 
     justify-content: space-between;
     align-items: center;
     
@@ -68,10 +73,6 @@ header {
 .container-head-2 {
     width: 30%;
     justify-content: space-between;
-}
-
-.header-bottom {
-    height: 60vh;
 }
 
 .logo {
@@ -100,6 +101,8 @@ header {
 
 .header-bottom {
     margin: 60px 270px;
+    height: 75vh;
+    padding-top: 70px;
 }
 
 h1 {
@@ -216,10 +219,6 @@ h2 {
     width: 480px;
 }
 
-.square-color {
-
-}
-
 
 .square-color > div {
     width: calc(100% / 3);
@@ -257,6 +256,106 @@ h2 {
     
 }
 
-.square-2-background {
-    background-color: red;
+.square-2 {
+    background-color: #f5f5f5;
+    
 }
+
+.designit {
+    background-color:#a2d39b
+}
+
+#designit {
+    width: 50%;
+    filter: invert(1);
+    
+}
+
+.arizona {
+    background-color: #61082b;
+}
+
+#arizona {
+    
+    filter: invert(1);
+    width: 50%;
+}
+
+.university {
+    background-color:#0093ce;
+    align-items: center;
+
+}
+
+#university {
+    width: 50%;
+    filter: invert(1);
+    height: 25%;
+}
+
+.topps {
+    background-color:#ff1c1c;
+}
+
+#topps {
+    width: 50%;
+    filter: invert(1);
+}
+
+#designit-logo {
+    width: 35%;
+    margin: 20px;
+
+}
+
+.designit-logo > hr {
+    width: 100px;
+    border: 0.1px solid grey;
+    margin-left: 20px;
+}
+
+.designit-logo > p {
+    margin: 20px;
+}
+
+.bicycle {
+    background-color: #d5001f;
+}
+
+#bicycle {
+    width: 50%;
+    filter: invert(1);
+}
+
+.hearst {
+    background-color:#b3cfe6;
+}
+
+#hearst {
+    width: 50%;
+    filter: invert(1);
+}
+
+.lonely {
+    background-color: #0d2481;
+}
+
+#lonely {
+    width: 50%;
+    filter: invert(1);
+}
+
+.clear {
+    background-color: #fad42f;
+}
+
+#clear {
+    width: 50%;
+    filter: invert(1);
+}
+
+.square-2-background {
+    background-color: #b4d0e7;
+}
+
+/* section-5 */
