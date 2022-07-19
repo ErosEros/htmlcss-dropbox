@@ -95,6 +95,7 @@ header {
     background-color: #0061ff;
     color: white;
     padding: 5px 12px;
+    border: none;
 } 
 
 /* header-bottom */
@@ -199,11 +200,12 @@ h2 {
 
 .title-foot-box-1 {
     margin-top: 30px;
+    /* padding: 10px 0px; */
 }
 
 .box-1 > span {
     font-size: 11px;
-    padding: 20px 0px;
+    padding: 10px 0px;
 }
 
 
@@ -214,7 +216,6 @@ h2 {
 .container-box-1 > div {
     width: 250px;
     height: 800px;
-    background-color: yellow;
     border: 0.5px solid black;
 
 }
@@ -222,8 +223,34 @@ h2 {
 .box-4 {
     margin-top: 50px;
     height: 200px;
-    background-color: yellow;
+    border: 0.5px solid black;
 }
+
+.title-box-4 {
+    border-bottom: 0.5px solid black;
+    padding: 10px 0px;
+}
+
+.box-4-head-content {
+    justify-content: space-between;
+}
+
+.office-sales {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.box-4-solution {
+    width: 475px;
+    font-size: 11px;
+    margin-top:30px;
+}
+
+.content-box-4 {
+    margin: 20px;
+}
+
+
 
 /* section-2 */
 
