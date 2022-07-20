@@ -141,7 +141,6 @@ p {
     font-size: 40px;
     margin-top: 10px;
 }
-
 /* main */
 
 
@@ -327,6 +326,9 @@ h2 {
     width: 480px;
 }
 
+.square-color {
+    color:white;
+}
 
 .square-color > div {
     width: calc(100% / 3);
@@ -369,45 +371,57 @@ h2 {
     
 }
 
-.designit {
-    background-color:#a2d39b
+.square-1 {
+    color: white;
+}
+
+.designit-back {
+    background-color:#a2d39b;
+    color:#cfebcc;
 }
 
 #designit {
-    width: 50%;
+    width: 100px;
     filter: invert(1);
     
 }
 
-.arizona {
-    background-color: #61082b;
+.arizona-back {
+    background-color:#61082b;
+    color: #83264b
 }
 
 #arizona {
-    
+    width: 70px;
     filter: invert(1);
-    width: 50%;
+    
 }
 
-.university {
-    background-color:#0093ce;
+.university-back {
     align-items: center;
-
+    background-color:#0093ce;
+    color: #42afdb;
+    
 }
 
 #university {
-    width: 50%;
+    width: 100px;
     filter: invert(1);
-    height: 25%;
+    height: 50px;
 }
 
-.topps {
+.topps-back {
     background-color:#ff1c1c;
+    color: #f84f4f;
 }
 
 #topps {
-    width: 50%;
+    width: 100px;
     filter: invert(1);
+}
+
+.designit-logo {
+    color: black;
 }
 
 #designit-logo {
@@ -426,39 +440,44 @@ h2 {
     margin: 20px;
 }
 
-.bicycle {
+.bicycle-back {
     background-color: #d5001f;
+    color: #dd2c46;
 }
 
 #bicycle {
-    width: 50%;
+    width: 100px;
     filter: invert(1);
 }
 
-.hearst {
+.hearst-back {
     background-color:#b3cfe6;
+    color:#ccdeec;
 }
 
 #hearst {
-    width: 50%;
+    width: 100px;
     filter: invert(1);
 }
 
-.lonely {
+.lonely-back {
     background-color: #0d2481;
+    color: #304081;
+    
 }
 
 #lonely {
-    width: 50%;
+    width: 100px;
     filter: invert(1);
 }
 
-.clear {
+.clear-back {
     background-color: #fad42f;
+    color: #ffe261;
 }
 
 #clear {
-    width: 50%;
+    width: 100px;
     filter: invert(1);
 }
 
@@ -468,6 +487,15 @@ h2 {
     align-items: center;
     justify-content: space-around;
     height: 300px;
+}
+
+.square {
+    transition: border 1s;
+}
+
+.square:hover {
+    border: 10px solid currentColor;
+  
 }
 
 /* section-5 */
@@ -493,7 +521,7 @@ h2 {
     border-bottom: 0.5px solid black;
     height: 100px;
     padding-top: 40px;
-    /* display: none; */
+    
 
 }
 
